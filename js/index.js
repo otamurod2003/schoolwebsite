@@ -12,6 +12,6 @@ window.addEventListener('load', function () {
     this.setTimeout(function(){
         // Loader div elementini yashirish
         loaderContainer.style.display="none";
-    },20)
+    },2)
 
 });
