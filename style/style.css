@@ -39,6 +39,8 @@ footer {
 .nav-link:hover{
     text-decoration:dashed;   
     background: #000; 
+    transition: .9s;
+    color: white;
 }
 
 @keyframes spin {
@@ -50,3 +52,9 @@ marquee{
     text-transform: uppercase;
 }
 
+
+.nav-item:hover{
+    transition: .8s;
+    color: white;
+    background: #000;
+ }
