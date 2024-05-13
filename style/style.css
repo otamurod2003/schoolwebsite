@@ -59,15 +59,8 @@ body{
     background: linear-gradient(rgb(207, 197, 197))
 }
 .arrow-up{
-    position: relative; 
+    position: relative;
 }
-.arrow-up a img
-{
-    scale: 4;
-    position: sticky;
-    left: 0;
-    right: 100;
-   overflow-x: hidden;
-    z-index: 1000;
-}
+
+
 
