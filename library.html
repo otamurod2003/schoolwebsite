@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maktab kutubxonasi</title>
+    <link rel="stylesheet" href="style/bootstrap.min_v4.5.2.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="img/symbol.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="top">
+            <div class="col-md-12 col-xl-12">
+                <div class="navbar navbar-expand-md d-flex navbar-dark bg-dark">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/symbol.jpg" alt="logo-site" class="logo-img rounded-circle "
+                            style="width: 40px;"></a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="index.html#bosh_sahifa" class="nav-link active">Bosh
+                                    sahifa</a>
+                            </li>
+                            <li class="nav-item"><a href="#ozbek_adabiyoti" class="nav-link">O'zbek adabiyoti</a>
+                            </li>
+                            <li class="nav-item"><a href="#jahon_adabiyoti" class="nav-link">Jahon adabiyoti</a>
+                            </li>
+                            <li class="nav-item"><a href="library.html" class="nav-link">Kutubxona</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center for-shadow" id="ozbek_adabiyoti">O'zbek adabiyoti</h1>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>O'tkan kunlar</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/book_otkan_kunlar.png" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Abdulla Qodiriy</h6>
+                        <button class="btn btn-outline-primary col" data-toggle="modal"
+                            data-target="#modal_otkan_kunlar">Batafsil...</button>
+                        <a href="books/otkan_kunlar.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Ikki eshik orasi</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/book_ikki_eshik_orasi.png" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: O'tkir Xoshimov</h6>
+                        <button class=" col btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modal_ikki_eshik">Batafsil...</button>
+                        <a href="books/ikki_eshik_orasi.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Mehrobdan chayon</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/book_mehrobdan_chayon.png" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Abdulla Qodiry</h6>
+                        <button class="btn btn-outline-primary col" data-toggle="modal"
+                            data-target="#modal_mehrobdan_chayon">Batafsil...</button>
+                        <a href="books/mehrobdan_chayon.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Yulduzli tunlar</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/book_yulduzli_tunlar.png" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Pirimqul Qodirov</h6>
+                        <button class="btn btn-outline-primary col" data-toggle="modal"
+                            data-target="#modal_yulduzli_tunlar">Batafsil...</button>
+                        <a href="books/yulduzli_tunlar.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal_otkan_kunlar">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4>O'tkan kunlar romani</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente rerum cum praesentium
+                                explicabo
+                                facere et quo eligendi dolorum architecto nihil adipisci aliquid laudantium excepturi
+                                hic ullam, dolorem
+                                enim fugiat impedit.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="" class="btn btn-outline-danger" data-dismiss="modal">Yopish</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal_ikki_eshik">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4 class="text-center">Ikki eshik orasi</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero quam blanditiis
+                                neque enim cum
+                                distinctio, recusandae sint iste saepe in eum facere sed labore ipsum autem, eos
+                                cupiditate. Tempora
+                                nobis, eos fuga delectus eaque aut nesciunt animi, similique placeat voluptate accusamus
+                                totam
+                                temporibus natus aliquam ab numquam quam unde.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-danger" data-dismiss="modal">Yopish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal_mehrobdan_chayon">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4 class="text-center">Mehrobdan chayon</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero quam blanditiis
+                                neque enim cum
+                                distinctio, recusandae sint iste saepe in eum facere sed labore ipsum autem, eos
+                                cupiditate. Tempora
+                                nobis, eos fuga delectus eaque aut nesciunt animi, similique placeat voluptate accusamus
+                                totam
+                                temporibus natus aliquam ab numquam quam unde.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-danger" data-dismiss="modal">Yopish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal_yulduzli_tunlar">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4 class="text-center">Yulduzli tunlar</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero quam blanditiis
+                                neque enim cum
+                                distinctio, recusandae sint iste saepe in eum facere sed labore ipsum autem, eos
+                                cupiditate. Tempora
+                                nobis, eos fuga delectus eaque aut nesciunt animi, similique placeat voluptate accusamus
+                                totam
+                                temporibus natus aliquam ab numquam quam unde.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-danger" data-dismiss="modal">Yopish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr width="100%">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center for-shadow" id="jahon_adabiyoti">Jahon adabiyoti</h1>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Oq so'yloq</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/oq_soyloq.png" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Jek London</h6>
+                        <button class="btn btn-outline-primary col" data-toggle="modal"
+                            data-target="#modal_oq_soyloq">Batafsil...</button>
+                        <a href="books/oq_soyloq.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Chol va dengiz</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/chol_va_dengiz.jpg" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Ernest Xeminguey</h6>
+                        <button class=" col btn btn-outline-primary" data-toggle="modal"
+                            data-target="#modal_chol_va_dengiz">Batafsil...</button>
+                        <a href="books/chol_va_dengiz.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Qirol Lir</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/qirol_lir.jpg" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Uilyam Shekspir</h6>
+                        <button class="btn btn-outline-primary col" data-toggle="modal"
+                            data-target="#modal_qirol_lir">Batafsil...</button>
+                        <a href="books/qirol_lir.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Oq kema</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="img/oq_kema.png" alt="rasm" class="card-img-top img-thumbnail">
+                    </div>
+                    <div class="card-footer">
+                        <h6 class="d-block">Muallif: Chingiz Aytmatov</h6>
+                        <button class="btn btn-outline-primary col" data-toggle="modal"
+                            data-target="#modal_oq_kema">Batafsil...</button>
+                        <a href="books/oq_kema.pdf" class="btn btn-success mt-2 col">Yuklab olish<img
+                                src="/icons/download.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal_oq_soyloq">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4>Oq so'yloq asari</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente rerum cum praesentium
+                                explicabo
+                                facere et quo eligendi dolorum architecto nihil adipisci aliquid laudantium excepturi
+                                hic ullam, dolorem
+                                enim fugiat impedit.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="" class="btn btn-outline-danger" data-dismiss="modal">Yopish</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modal_chol_va_dengiz">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4 class="text-center">Chol va dengiz qissasi</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero quam blanditiis
+                                neque enim cum
+                                distinctio, recusandae sint iste saepe in eum facere sed labore ipsum autem, eos
+                                cupiditate. Tempora
+                                nobis, eos fuga delectus eaque aut nesciunt animi, similique placeat voluptate accusamus
+                                totam
+                                temporibus natus aliquam ab numquam quam unde.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-danger" data-dismiss="modal">Yopish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal_qirol_lir">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4 class="text-center">Qirol Lir romani</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero quam blanditiis
+                                neque enim cum
+                                distinctio, recusandae sint iste saepe in eum facere sed labore ipsum autem, eos
+                                cupiditate. Tempora
+                                nobis, eos fuga delectus eaque aut nesciunt animi, similique placeat voluptate accusamus
+                                totam
+                                temporibus natus aliquam ab numquam quam unde.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-danger" data-dismiss="modal">Yopish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modal_oq_kema">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" data-dismiss="modal">
+                            <h4 class="text-center">Oq kema qissasi</h4>
+                            <span class="close" style="cursor: pointer;">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam libero quam blanditiis
+                                neque enim cum
+                                distinctio, recusandae sint iste saepe in eum facere sed labore ipsum autem, eos
+                                cupiditate. Tempora
+                                nobis, eos fuga delectus eaque aut nesciunt animi, similique placeat voluptate accusamus
+                                totam
+                                temporibus natus aliquam ab numquam quam unde.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-outline-danger" data-dismiss="modal">Yopish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrow-up">
+            <a href="#top"><img src="icons/arrow-up-circle-fill.svg" alt=""></a>
+        </div>
+    </div>
+    <script src="js/jQuery_v3.5.1.min.js"></script>
+    <script src="js/bootsrap_4.5.2.min.js"></script>
+
+</body>
+
+</html>
